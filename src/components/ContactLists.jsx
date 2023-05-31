@@ -17,7 +17,7 @@ const ContactLists = () => {
   return (
     <div>
       <div className="flex flex-wrap justify-between w-[1200px] mx-auto ">
-        <div className=" w-full">
+        <div className=" w-[1120px]">
           <table className="table w-full">
             {/* head */}
             <thead>
