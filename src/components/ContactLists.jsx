@@ -75,7 +75,8 @@ const ContactLists = () => {
                         />
                       </div>
                     </div>
-                    <div className="invisible group-hover:visible absolute left-3 top-[1.85rem]">
+                    {/* checkbox visible */}
+                    <div className="invisible group-hover:visible absolute ">
                       <label>
                         <input type="checkbox" className="checkbox " />
                       </label>
@@ -91,8 +92,9 @@ const ContactLists = () => {
                 <th>
                   <button className="btn btn-ghost btn-xs">details</button>
                 </th>
+                {/* single hover */}
                 <td>
-                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 gap-5 sm:flex items-center">
+                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 space-x-5 sm:flex items-center">
                     <button className="h-full">
                       <div
                         className=" tooltip tooltip-bottom capitalize"
@@ -165,7 +167,8 @@ const ContactLists = () => {
                         />
                       </div>
                     </div>
-                    <div className="invisible group-hover:visible absolute left-3 top-[1.85rem]">
+                    {/* checkbox visible */}
+                    <div className="invisible group-hover:visible absolute ">
                       <label>
                         <input type="checkbox" className="checkbox " />
                       </label>
@@ -181,8 +184,9 @@ const ContactLists = () => {
                 <th>
                   <button className="btn btn-ghost btn-xs">details</button>
                 </th>
+                {/* single hover */}
                 <td>
-                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 gap-5 sm:flex items-center">
+                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 space-x-5 sm:flex items-center">
                     <button className="h-full">
                       <MdStarOutline size={20} />
                     </button>
@@ -207,7 +211,8 @@ const ContactLists = () => {
                         />
                       </div>
                     </div>
-                    <div className="invisible group-hover:visible absolute left-3 top-[1.85rem]">
+                    {/* checkbox visible */}
+                    <div className="invisible group-hover:visible absolute ">
                       <label>
                         <input type="checkbox" className="checkbox " />
                       </label>
@@ -223,8 +228,9 @@ const ContactLists = () => {
                 <th>
                   <button className="btn btn-ghost btn-xs">details</button>
                 </th>
+                {/* single hover */}
                 <td>
-                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 gap-5 sm:flex items-center">
+                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 space-x-5 sm:flex items-center">
                     <button className="h-full">
                       <MdStarOutline size={20} />
                     </button>
@@ -249,7 +255,8 @@ const ContactLists = () => {
                         />
                       </div>
                     </div>
-                    <div className="invisible group-hover:visible absolute left-3 top-[1.85rem]">
+                    {/* checkbox visible */}
+                    <div className="invisible group-hover:visible absolute ">
                       <label>
                         <input type="checkbox" className="checkbox " />
                       </label>
@@ -265,8 +272,9 @@ const ContactLists = () => {
                 <th>
                   <button className="btn btn-ghost btn-xs">details</button>
                 </th>
+                {/* single hover */}
                 <td>
-                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 gap-5 sm:flex items-center">
+                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 space-x-5 sm:flex items-center">
                     <button className="h-full">
                       <MdStarOutline size={20} />
                     </button>
