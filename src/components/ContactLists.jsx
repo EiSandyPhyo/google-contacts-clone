@@ -94,7 +94,7 @@ const ContactLists = () => {
                 </th>
                 {/* single hover */}
                 <td>
-                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 space-x-5 sm:flex items-center">
+                <div className="invisible group-hover:visible absolute h-full top-0 right-3 gap-4 flex flex-wrap justify-center sm:flex items-center">
                     <button className="h-full">
                       <div
                         className=" tooltip tooltip-bottom capitalize"
@@ -186,7 +186,7 @@ const ContactLists = () => {
                 </th>
                 {/* single hover */}
                 <td>
-                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 space-x-5 sm:flex items-center">
+                <div className="invisible group-hover:visible absolute h-full top-0 right-3 gap-4 flex flex-wrap justify-center sm:flex items-center">
                     <button className="h-full">
                       <MdStarOutline size={20} />
                     </button>
@@ -230,7 +230,7 @@ const ContactLists = () => {
                 </th>
                 {/* single hover */}
                 <td>
-                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 space-x-5 sm:flex items-center">
+                <div className="invisible group-hover:visible absolute h-full top-0 right-3 gap-4 flex flex-wrap justify-center sm:flex items-center">
                     <button className="h-full">
                       <MdStarOutline size={20} />
                     </button>
@@ -274,7 +274,7 @@ const ContactLists = () => {
                 </th>
                 {/* single hover */}
                 <td>
-                  <div className="invisible group-hover:visible absolute h-full top-0 right-4 space-x-5 sm:flex items-center">
+                <div className="invisible group-hover:visible absolute h-full top-0 right-3 gap-4 flex flex-wrap justify-center sm:flex items-center">
                     <button className="h-full">
                       <MdStarOutline size={20} />
                     </button>
