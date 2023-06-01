@@ -1,10 +1,11 @@
 import React from 'react'
-import ContactLists from './components/ContactLists'
+import ContactList from './components/ContactList'
+
 
 const App = () => {
   return (
     <div>
-      <ContactLists/>
+      <ContactList/>
     </div>
   )
 }
