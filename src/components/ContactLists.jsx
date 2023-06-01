@@ -32,16 +32,24 @@ const ContactLists = ({ contact }) => {
             </label>
           </div>
           <div>
-            <div className="font-semibold capitalize">{contact.username}</div>
+            <div className="font-semibold capitalize w-1/5 max-[1003px]:w-1/3">
+              {contact.username}
+            </div>
           </div>
         </div>
       </td>
-      <td>{contact.email}</td>
-      <td>{contact.phone}</td>
-      <td>{address}</td>
+      <td className="w-1/5 max-[574px]:hidden max-[1003px]:w-1/3">
+        {contact.email}
+      </td>
+      <td className="w-1/5 max-[574px]:hidden max-[1003px]:hidden">
+        {contact.phone}
+      </td>
+      <td className="w-1/5 max-[574px]:hidden max-[1003px]:hidden">
+        {address}
+      </td>
       {/* single hover */}
-      <td>
-        <div className="invisible group-hover:visible absolute h-full top-0 right-3 gap-4 flex flex-wrap justify-center sm:flex items-center">
+      <td className="w-1/5 max-[574px]:w-2/5 max-[1003px]:1/3">
+        <div className="invisible group-hover:visible flex items-center space-x-5 justify-end">
           <button className="h-full">
             <div
               className=" tooltip tooltip-bottom capitalize"

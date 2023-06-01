@@ -36,19 +36,24 @@ const ContactList = () => {
 
   return (
     <>
-      <div className="flex flex-wrap justify-between w-[1200px] mx-auto ">
-        <div className=" w-[1120px]">
+      <div className="flex flex-wrap justify-between w-5/6 mx-auto max-w-[1200px]">
+        <div className="w-[1120px]">
           <table className="table w-full">
             {/* head */}
             <thead>
               <tr>
-                <th className="capitalize w-32">name</th>
-                <th className="capitalize w-60">email</th>
-                <th className="capitalize w-32">phone number</th>
-                {/* <th className="capitalize ">job title & company</th> */}
-                <th className="capitalize w-52">address</th>
-                <th>
-                  <div className="flex items-center space-x-5">
+                <th className="capitalize w-1/5 max-[1003px]:w-1/3">name</th>
+                <th className="capitalize w-1/5 max-[574px]:hidden max-[1003px]:w-1/3">
+                  email
+                </th>
+                <th className="capitalize w-1/5 max-[574px]:hidden max-[1003px]:hidden">
+                  phone number
+                </th>
+                <th className="capitalize w-1/5 max-[574px]:hidden max-[1003px]:hidden">
+                  address
+                </th>
+                <th className="w-1/5 max-[574px]:w-2/5 max-[1003px]:1/3">
+                  <div className="flex items-center space-x-5 justify-end">
                     <div
                       className="tooltip tooltip-bottom lowercase cursor-pointer"
                       data-tip="print"
@@ -91,7 +96,7 @@ const ContactList = () => {
             </tbody>
           </table>
         </div>
-        <div className=" h-14 space-x-5 relative">
+        <div className=" h-14 space-x-5 relative max-[574px]:hidden max-[1003px]:hidden lg:hidden 2xl:block">
           <div className="absolute w-16 top-[0.9rem] right-0">
             <div
               className="tooltip tooltip-bottom capitalize cursor-pointer text-xs"
