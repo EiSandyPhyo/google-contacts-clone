@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { HiPrinter } from "react-icons/hi2";
 import { CiExport, CiMenuKebab } from "react-icons/ci";
 import { MdStarOutline, MdOutlineEdit } from "react-icons/md";
 import { LuFolderDown } from "react-icons/lu";
 import { RiDeleteBin6Line } from "react-icons/ri";
 
-const ContactLists = ({ contact }) => {
+const ContactLists = ({ contact, menuOpen, setMenuOpen }) => {
   let address =
     contact.address.city +
     " " +
@@ -33,7 +33,7 @@ const ContactLists = ({ contact }) => {
           </div>
           <div>
             <div className="font-semibold capitalize w-1/5 max-[1003px]:w-1/3">
-              {contact.username}
+              {contact.name.firstname + " " + contact.name.lastname}
             </div>
           </div>
         </div>
@@ -44,7 +44,11 @@ const ContactLists = ({ contact }) => {
       <td className="w-1/5 max-[574px]:hidden max-[1003px]:hidden">
         {contact.phone}
       </td>
-      <td className="w-1/5 max-[574px]:hidden max-[1003px]:hidden">
+      <td
+        className={
+          menuOpen ? "hidden" : "w-1/5 max-[574px]:hidden max-[1003px]:hidden"
+        }
+      >
         {address}
       </td>
       {/* single hover */}
