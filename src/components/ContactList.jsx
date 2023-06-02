@@ -123,7 +123,7 @@ const ContactList = () => {
             </tbody>
           </table>
         </div>
-        <div className=" h-14 space-x-5 relative max-[574px]:hidden max-[1003px]:hidden lg:hidden 2xl:block">
+        <div className=" h-14 space-x-5 relative max-[574px]:hidden max-[1003px]:hidden lg:block 2xl:block">
           <div
             className={
               menuOpen
